@@ -6,7 +6,13 @@ function Appearance(props) {
     <div>
       <style jsx>{`
           div {
-            background-color: red;
+            background-color: green;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          div h3 {
+            padding-left: 1em;
+            font-weight: lighter;
           }
           `}</style>
       <h2>{props.day}</h2>

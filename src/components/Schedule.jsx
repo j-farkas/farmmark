@@ -43,7 +43,7 @@ const marketSchedule = [
 function Schedule() {
   return (
     <div>
-      <hr />
+      
       {marketSchedule.map((appearance, index) =>
         <Appearance day={appearance.day}
           location={appearance.location}

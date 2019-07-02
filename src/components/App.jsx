@@ -7,6 +7,14 @@ import SeasonalProduce from './SeasonalProduce';
 function App() {
   return (
     <div>
+      <style global jsx>{`
+        h2 {
+          text-align: center;
+        }
+        span {
+          text-align: center;
+        }
+      `}</style>
       <Header />
       <Schedule />
       <SeasonalProduce />
